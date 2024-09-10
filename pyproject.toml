@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "profile"
+version = "0.1.0"
+description = ""
+authors = ["NxtaSunstrike <unixalle765@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+faststream = {extras = ["nats"], version = "^0.5.23"}
+fastapi = "^0.114.0"
+gunicorn = "^23.0.0"
+uvicorn = "^0.30.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
