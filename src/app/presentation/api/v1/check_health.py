@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 
 from fastapi import APIRouter
 
-health_check_router = APIRouter(prefix="/health-check", tags=["health-check"])
+health_check_router = APIRouter(prefix="/profile/health-check", tags=["health-check"])
 
 
 @dataclass(frozen=True)
